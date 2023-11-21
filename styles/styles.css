@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+  background-color: #181818;
+  /* height: 9000px; */
+}
+/* Navigation Bar */
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.734);
+  color: #fff;
+  z-index: 1000;
+  position: fixed;
+}
+nav .container ul {
+  height: 100%;
+  /* background-color: red; */
+}
+
+nav .container ul li {
+  list-style: none;
+  padding-right: 20px;
+  float: left;
+  /* background-color: bisque; */
+  height: 100%;
+  padding-top: 15px;
+  padding-left: 12px;
+}
+
+nav .container ul li a {
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  font-size: 15px;
+  padding-left: 5px;
+}
+nav .container ul li:hover {
+  background-color: rgb(146, 125, 3);
+}
+
+nav .container {
+  /* background-color: green; */
+  height: 50px;
+  width: 500px;
+  float: right;
+  position: relative;
+  
+}
+
+nav .logo {
+  width: 200px;
+  height: 50px;
+  float: left;
+  padding-left: 100px;
+  clear: both;
+}
+
+.lang {
+  /* background-color: red; */
+  width: 150px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.lang img {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 20px;
+  border-radius: 50%;
+  
+}
+
+.lang p {
+  margin-left: 10px;
+}
+
+.home {
+  background-color: rgb(146, 125, 3);
+  
+}
+

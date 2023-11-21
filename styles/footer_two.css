@@ -1,0 +1,179 @@
+.foot-two {
+  width: 100%;
+  height: 380px;
+  background-color: black;
+  padding-top: 20px;
+}
+
+/* first div */
+.foot-two .frst-foot {
+  width: 400px;
+  /* background-color: aqua; */
+  height: 300px;
+  float: left;
+  margin-left: 80px;
+}
+
+.foot-two .frst-foot p {
+  text-align: center;
+  color: white;
+  width: 300px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+.foot-two .frst-foot img {
+  width: 200px;
+  height: 50px;
+  object-fit: contain;
+  margin-left: 100px;
+}
+/* /////////////////////////////////////////////////////////// */
+
+/* second div */
+.foot-two .snd-foot {
+  width: 400px;
+  /* background-color: green; */
+  height: 300px;
+  float: left;
+  margin-left: 80px;
+}
+
+.foot-two .snd-foot h2 {
+  color: rgb(146, 125, 3);
+  text-align: center;
+  margin: 10px;
+}
+
+.foot-two .snd-foot img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+.num {
+  /* background-color: blue; */
+  margin-bottom: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.address {
+  /* background-color: blue; */
+  text-align: center;
+  height: 50px;
+}
+
+.foot-two .snd-foot span {
+  color: white;
+  margin-left: 5px;
+}
+
+.foot-two .foot-logo {
+  /* background-color: blue; */
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.foot-logo a {
+  width: 50px;
+  height: 50px;
+  /* background-color: red; */
+  border-radius: 50%;
+  display: inline-block;
+  /* margin-left: 50px; */
+  /* background-image: url(../images/Facebook_Logo_2023.png); */
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.foot-logo ul{
+  margin-left: 17px;
+}
+
+.foot-logo ul li {
+  display: inline-block;
+  list-style-type: none;
+  /* background-color: blue; */
+  width: 50px;
+  height: 50px;
+  margin-left: 50px;
+  /* background-image: url(../images/Facebook_Logo_2023.png); */
+  border-radius: 50%;
+  color: white;
+}
+
+.fb{
+  background-color: blue;
+}
+
+.ins{
+  background-color: purple;
+}
+
+.map{
+  background-color: rgb(156, 156, 3);
+}
+
+.fb:hover{
+  background-image: linear-gradient(blue,rgb(36, 36, 253),rgb(74, 74, 211),rgb(136, 136, 234));
+}
+
+.ins:hover{
+   background-image: linear-gradient(purple,rgb(122, 20, 122), rgb(116, 58, 116), rgb(110, 54, 110));
+}
+
+.map:hover{ 
+  background-image: linear-gradient(yellow, rgb(196, 196, 33), rgb(129, 129, 47), rgb(105, 105, 56));
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.foot-two .thrd-foot {
+  width: 400px;
+  /* background-color: yellow; */
+  height: 300px;
+  float: left;
+  margin-left: 80px;
+  color: white;
+  text-align: center;
+}
+
+.foot-two .thrd-foot h2 {
+  color: rgb(146, 125, 3);
+  text-align: center;
+  margin: 10px;
+}
+
+.foot-two .thrd-foot h3 {
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.foot-two .thrd-foot img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-top: 5px;
+}
+
+footer {
+  width: 100%;
+  /* margin-top: 20px; */
+  height: 50px;
+  background-color: black;
+  float: left;
+  color: white;
+  padding-top: 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 5px;
+}
